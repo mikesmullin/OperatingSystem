@@ -1,5 +1,7 @@
 # Build Your Own Operating System
 
+![Screenshot](https://raw.github.com/mikesmullin/OperatingSystem/master/doc/screenshot.gif)
+
 ## Installation (on Ubuntu 12.04 LTS 64-bit):
 
 ```bash
