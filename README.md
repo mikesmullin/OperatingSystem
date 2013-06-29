@@ -12,7 +12,7 @@ make all # will also launch emulator
 
 ## Recommended Reading:
 * http://wiki.osdev.org/Bare_Bones
-* http://wiki.osdev.org/GCC_Cross-Compiler_on_Debian_Linux
+* http://wiki.osdev.org/GCC_Cross-Compiler
 * http://mrbook.org/tutorials/make/
 * http://www.ibm.com/developerworks/linux/library/l-linux-kernel/
 * Bitcoin 2012 London: Richard Stallman http://www.youtube.com/watch?v=FN6Q--zqroM
