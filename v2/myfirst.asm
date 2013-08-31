@@ -10,9 +10,14 @@ start:
   mov ax, 07c0h
   mov ds, ax
   mov si, text_string
+  call clear_screen
   call print_string
   jmp $
-  text_string db 'This is my cool new OS!', 0
+  text_string db 'This is my cool new OS2!', 0
+clear_screen:
+  mov ah, 07h
+  int 10h
+  ret
 print_string:
   mov ah, 0Eh
 .repeat:
