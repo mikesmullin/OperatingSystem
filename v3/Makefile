@@ -1,7 +1,9 @@
+BASENAME=boot/$(BOOT)
+
 all:
-	nasm boot_sect.asm -f bin -o boot_sect.bin
+	nasm "$(BASENAME).asm" -f bin -o "$(BASENAME).bin"
 qemu: all
-	qemu-system-x86_64 boot_sect.bin
+	qemu-system-x86_64 "$(BASENAME).bin"
 bochs: all
-	bochs
+	bochs 'display_library: sdl' 'floppya: 1_44="$(BASENAME).bin", status=inserted' 'boot: floppy'
 

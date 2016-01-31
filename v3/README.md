@@ -39,13 +39,16 @@ sudo apt-get install ghex okteta bless wxhexeditor
 
 ## Build
 
+Choose one of the examples from the [boot/](boot/) directory,
+and pass the basename of the file as the first argument below.
+
 ```bash
-make
+BOOT=hello make
 ```
 
 ## Test
 
 ```bash
-make bochs # or;
-make qemu
+BOOT=hello make bochs # or;
+BOOT=hello make qemu
 ```

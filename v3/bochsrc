@@ -1,3 +1,0 @@
-display_library: sdl
-floppya: 1_44=boot_sect.bin, status=inserted
-boot: floppy
