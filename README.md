@@ -13,7 +13,8 @@ In this repository there are several flavors based on various tutorials.
 
 - **[v2](v2)**  
   an attempt to minimize [v1](v1)
-  following the work of [Mike Saunders](https://github.com/mig-hub/mikeOS)
+  following the work of [Mike Saunders](https://github.com/mig-hub/mikeOS).  
+  see also [MikeOS running in browser](http://jemul8.com/) via [jemul8](https://github.com/asmblah/jemul8).
 
 - **[v3](v3)**  
   following a lecture by [Nick Blundell](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
