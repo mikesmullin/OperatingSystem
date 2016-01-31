@@ -27,6 +27,8 @@ sudo apt-get install bochs bochs-x bochs-sdl
 # qemu emulator
 sudo apt-get install qemu
 ```
+note there is also a [browser-based x86 emulator](http://copy.sh/v86/)  
+but i am developing for 64-bit so i don't use it much.
 
 3) optionally choose one or more hex editors
 ```bash
