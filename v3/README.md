@@ -39,6 +39,8 @@ sudo apt-get install jeex
 sudo apt-get install ghex okteta bless wxhexeditor
 ```
 
+and of course there is a really nice [browser-based hex editor](https://hexed.it/)
+
 ## Build
 
 Choose one of the examples from the [boot/](boot/) directory,
