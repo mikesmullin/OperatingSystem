@@ -56,3 +56,9 @@ BOOT=hello make
 BOOT=hello make bochs # or;
 BOOT=hello make qemu
 ```
+
+## Reference
+
+see also:
+
+- [NASM Language](http://www.nasm.us/xdoc/2.11.08/html/nasmdoc3.html)
