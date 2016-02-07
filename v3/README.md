@@ -41,6 +41,13 @@ sudo apt-get install ghex okteta bless wxhexeditor
 
 and of course there is a really nice [browser-based hex editor](https://hexed.it/)
 
+4) optionally choose one or more disassemblers
+```bash
+ndisasm -help # nasm comes with one
+```
+
+but this [browser-based disassembler](https://www.onlinedisassembler.com) is pretty sweet too
+
 ## Build
 
 Choose one of the examples from the [boot/](boot/) directory,
