@@ -64,6 +64,18 @@ BOOT=hello make bochs # or;
 BOOT=hello make qemu
 ```
 
+## Debug
+
+```bash
+qemu-system-x86_64 -s -S ./boot/hello.bin 
+gdb -tui
+layout asm
+set architecture i8086
+target remote localhost:1234
+br *0x7c00
+continue
+```
+
 ## Reference
 
 see also:
