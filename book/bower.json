@@ -1,0 +1,9 @@
+{
+	"name": "book",
+	"dependenciesIgnore": {
+		"rxjs": ["**/!(rx.all.min.js)"],
+		"mithril.js": ["**/!(mithril.min.js)"],
+		"jquery": ["**/!(jquery.min.js)"],
+		"bootstrap": ["**/!(bootstrap.bundle.min.js|bootstrap.min.css)"]
+	}
+}
