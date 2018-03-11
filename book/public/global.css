@@ -44,6 +44,9 @@ h1 {
 .mt-2 {
     margin-top: .5rem;
 }
+.ml-1 {
+    margin-left: .25rem;
+}
 
 
 
@@ -68,30 +71,26 @@ body { padding-bottom: 6rem; }
 }
 .instruction .group {
     padding: 5px;
-    width: 100%;
     display: block;
     box-sizing: border-box;
     color: black;
     margin-right: 5px;
-    max-width: calc((2rem * 8) + (5px * 3));
     border: 1px solid black;
     margin-top: 5px;
+    max-width: 100%;
+    width: 292px;
 }
 .instruction .group .description {
     margin-bottom: .5rem;
 }
+.instruction .group .b-g {
+}
 .instruction .group .description label {
     font-weight: bold;
     display: block;
+    cursor: pointer;
 }
 
-/* .instruction .bg-gray { background: gray; }
-.instruction .bg-pink { background: pink; }
-.instruction .bg-yellow { background: yellow; }
-.instruction .bg-blue { background: blue; }
-.instruction .bg-green { background: green; }
-.instruction .bg-orange { background: orange; }
-.instruction .bg-red { background: red; } */
 .instruction .group input {
     font-family: monospace;
     text-align: center;
@@ -110,3 +109,8 @@ body { padding-bottom: 6rem; }
 .instruction .group input:last-child {
     border-right-style: solid;
 }
+
+
+svg.blue { color: #004edd; }
+/*svg.green { color: #277527; }*/
+svg.red { color: #aa0909; }
