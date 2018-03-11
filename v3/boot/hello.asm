@@ -1,17 +1,12 @@
-; NASM MBR boot loader
 [bits 16]                               ; 16-bit code
 [org 0x7c00]                            ; BIOS loads us at 0x07c0:0000
-;jmp 0x0000:initialize_bios              ; reset code segment to 0x0000 with long jump
 
 initialize_bios:
-        ;xor ax, ax
-        ;mov ds, ax                      ; reset data segments to 0x0000
-        ;mov es, ax
-        mov si, welcome                 ; print welcome string
+        mov si, welcome                 ; first argument to function is string to print
         call print
 
 halt:
-        hlt                             ; halt CPU to save power
+        hlt                             ; halt CPU (saves power vs. infinite loop)
         jmp halt                        ; loop if halt interrupted
 
 print:                                  ; Print string in SI with bios
@@ -28,7 +23,7 @@ exit_function:
         ret
 
 data:
-        welcome db 'Hello Smullin!', 0  ; welcome message
+        welcome db 'Hello World!', 0    ; welcome message
 
 times 510 - ($ - $$) db 0               ; should fill to 510 bytes. For demo changed to 200 bytes.
 dw 0xaa55                               ; boot signature (fills to 512 bytes)
