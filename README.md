@@ -20,3 +20,6 @@ In this repository there are several flavors based on various tutorials.
   following a lecture by [Nick Blundell](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
   of School of Computer Science, University of Birmingham, UK
   circa 2010
+
+### Reference Material
+- [Ralf Brown's BIOS Interrupt List](http://www.ctyme.com/rbrown.htm)
