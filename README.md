@@ -4,7 +4,7 @@ Also known as [system programming](https://en.wikipedia.org/wiki/System_programm
 Preparatory for future contributions to the [Linux kernel](http://www.linuxfoundation.org/publications/linux-foundation/who-writes-linux-2015), [forks](https://coreos.com/), drivers,
 or any kind of [[micro]controller](https://www.raspberrypi.org/) hardware.  
 As well as decompiling, hacking, and [modern](https://en.wikipedia.org/wiki/Ransomware) [malware](https://zeltser.com/build-malware-analysis-toolkit/) or [backdoor](http://www.theregister.co.uk/2016/01/27/stamos_slams_rsa_conference/) analysis.  
-Or just understanding [how computers work](http://www.keylinkcomputers.co.uk/Tom/TOMSimulator/tomsimulator.htm).  
+Or just understanding [how computers work](http://www.virtual-science.co.uk/tomsimulator.html).  
   
 In this repository there are several flavors based on various tutorials.
 
